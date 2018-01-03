@@ -47,6 +47,9 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+.justified {
+			text-align: justify;
+	}
 
 /* Box Model */
 
@@ -61,6 +64,7 @@
 	.container {
 		margin-left: auto;
 		margin-right: auto;
+		color: black;
 	}
 
 	.container.\31 25\25 {
@@ -1593,16 +1597,17 @@
 			color: #333;
 		}
 
-	h2 {
+	h1 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		font-weight: bold;
 	}
 
-		h2.alt {
-			color: #888;
+		h1.alt {
+			color: #000;
 		}
 
-			h2.alt strong {
+			h1.alt strong {
 				color: #666;
 			}
 
@@ -2183,7 +2188,8 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/banner.gif");
+				height: 100vh;
 			}
 
 			#main > section.two {
