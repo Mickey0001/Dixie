@@ -1602,7 +1602,9 @@
 		letter-spacing: -1px;
 		font-weight: bold;
 	}
-
+	.black {
+		color: #000;
+	}
 		h1.alt {
 			color: #000;
 		}
