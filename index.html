@@ -5,10 +5,12 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="favicon.png" type="image/x-icon"/>
-		<link rel="stylesheet preload" href="assets/css/main.css" as="style"/>
+		<noscript>
+				<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+		</noscript>
 	</head>
 	<body>
-		<!-- Header	  -->
+		<!-- Header	 <link rel="stylesheet" href="assets/css/main.css"/>  -->
 			<div id="header">
 
 				<div class="top">
@@ -333,6 +335,15 @@
 					</ul>
 
 			</div>
+			<script defer type="text/javascript">
+					/* First CSS File */
+					var giftofspeed = document.createElement('link');
+					giftofspeed.rel = 'stylesheet';
+					giftofspeed.href = 'assets/css/main.css';
+					giftofspeed.type = 'text/css';
+					var godefer = document.getElementsByTagName('link')[0];
+					godefer.parentNode.insertBefore(giftofspeed, godefer);
+			</script>
 			<script defer src="assets/js/jquery.min.js"></script>
 			<script defer src="assets/js/jquery.scrolly.min.js"></script>
 			<script defer src="assets/js/jquery.scrollzer.min.js"></script>
