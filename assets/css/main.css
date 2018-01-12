@@ -417,7 +417,7 @@ section >:last-child,
 section > .container, section:last-child, article >:last-child,
 article > .container, article:last-child{margin-bottom:0;}
 .row > section, .row > article{margin-bottom:0;}
-.image{display:inline-block;border:0;}
+.image{display:inline-block;border:0;border-radius:5px;}
 .image img{display:block;width:100%;}
 .image.avatar48{width:48px;height:48px;background:#f00;}
 .image.avatar48 img{width:48px;height:48px;}
