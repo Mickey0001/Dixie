@@ -512,7 +512,7 @@ button:active,
 #main > section.dark a{color:#fff;border-color:inherit;}
 #main > section.dark a:hover{border-bottom-color:rgba(255, 255, 255, 0);}
 #main > section.cover{padding:6em 0;background-size:cover;background-position:center center;}
-#main > section.one{background-color:#81918E;background-image:url("../../images/banner.gif");height:100vh;}
+#main > section.one{background-color:#81918E;background-image:url("../../images/banner.gif");position: relative;height:100vh;background-repeat:no-repeat;background-size:100% 100vh;}
 #main > section.two{background-color:#f5fafa;}
 #main > section.three{background-color:#ecf1f1;}
 #main > section.four{background-color:#e8edec;}
