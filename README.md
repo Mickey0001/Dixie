@@ -1,3 +1,3 @@
 # Dixie
 Website for a chemist friend.
-Site: http://dijana.science
+Site:  https://mickey0001.github.io/Dixie
